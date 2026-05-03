@@ -4,12 +4,12 @@ import { Users, Target, Eye, Heart } from 'lucide-react';
 import { usePage } from '@inertiajs/react';
 import PublicLayout from './Layouts/PublicLayout';
 
-const ABOUT_IMAGE = "https://images.unsplash.com/photo-1753351056838-143bc3e4cf03?w=1200&q=80";
+const ABOUT_IMAGE = "https://scontent.fykz1-1.fna.fbcdn.net/v/t39.30808-6/484870814_2415773838797827_7153641233455206666_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=13d280&_nc_ohc=Bj_VHNe2gJAQ7kNvwFd7nlx&_nc_oc=AdoAjFX9SPEiglWw_ZZji1tXWgiUnOF23Drli-_b8mzES_DORA1JN6EQkw4PfVJypCJaKOwTUjGaW4ZHi-1TPPPJ&_nc_zt=23&_nc_ht=scontent.fykz1-1.fna&_nc_gid=k8V3Ym3fh3jx4eAX5I9k4w&_nc_ss=7b2a8&oh=00_Af5FrXVQ-qGCkeU91Eor0jk58yO1wF1CAcF2w3kSn44AZA&oe=69FD2061";
 
 const leadership = [
-  { name: 'Pastor John Adebayo', role: 'Senior Pastor', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80' },
-  { name: 'Pastor Grace Adebayo', role: 'Associate Pastor', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80' },
-  { name: 'Elder David Okonkwo', role: 'Elder', image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80' },
+  { name: 'Apostle Israel W. Abam', role: 'Senior Pastor', image: 'https://scontent.fykz1-2.fna.fbcdn.net/v/t39.30808-6/517940470_10163087177377552_5625488345346082863_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7b2446&_nc_ohc=OLunedUZ9RoQ7kNvwFtcQwu&_nc_oc=AdqX0iogiyHrSLQAdLEQjN52uNFZY6eDpczRLPPqTyc5r0FxKpahgRIs4SsG-C2Ex_EwoPsDnXehJVz4lMo9qxiM&_nc_zt=23&_nc_ht=scontent.fykz1-2.fna&_nc_gid=N3dSFhUzB6rNjmKAuX09jQ&_nc_ss=7b2a8&oh=00_Af685eYvfI9a3f7jdwjbMAh6_YwfangtQIciVb8nwD1aYg&oe=69FD380E' },
+  { name: 'Pastor Dorcas Abam', role: 'Pastor', image: 'https://scontent.fykz1-2.fna.fbcdn.net/v/t39.30808-6/470207667_10162377740972552_193114970826091238_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=7hxIM2b50_UQ7kNvwGdURjK&_nc_oc=AdoYgKVfCUAFKtR_HTn_GOfKgvQvJ_9BRpVtzufmHITkJQwp3g1XQ5PVqKniwkoUfMLKhCAqSl4sMFC6n0LdThqk&_nc_zt=23&_nc_ht=scontent.fykz1-2.fna&_nc_gid=VK1HpFaLRZhOFqsx3nccVg&_nc_ss=7b2a8&oh=00_Af5dgbPuGrQ2Ha6JdEX5YaarwhOaEXwaQITmE1QwsYdCng&oe=69FD2767' },
+  { name: 'Pastor Peter Owoedimo', role: 'Resident Pastor', image: 'https://scontent.fykz1-2.fna.fbcdn.net/v/t39.30808-6/481080396_10162565676302552_7390739414489672943_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7b2446&_nc_ohc=0VzKhq5mQiIQ7kNvwHeU6sK&_nc_oc=AdpTKUhn0KjA-1WJC_vNZ7LPVmcuVnINIg8mpY_SURbYXBu8wqOZ4dILfAvZMCTGTUrTiI3gX75h7HmYI7vQRp8w&_nc_zt=23&_nc_ht=scontent.fykz1-2.fna&_nc_gid=Ojb6_b_hpC8eiJrnI_sPAw&_nc_ss=7b2a8&oh=00_Af4zxNCFPGLJ3tlSevLjoh0jo7XXxGFzwhh28bs9F45XOw&oe=69FD5092' },
 ];
 
 export default function AboutPage() {

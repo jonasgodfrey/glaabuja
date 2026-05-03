@@ -5,7 +5,7 @@ import axios from 'axios';
 import { Play, Calendar, Clock, MapPin, ArrowRight, Send } from 'lucide-react';
 import PublicLayout from './Layouts/PublicLayout';
 
-const HERO_IMAGE = "https://images.unsplash.com/photo-1704254077225-f4e218628329?w=1920&q=80";
+const HERO_IMAGE = "https://scontent.fykz1-2.fna.fbcdn.net/v/t39.30808-6/511310348_1144540397703026_2396516799928194056_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=13d280&_nc_ohc=h7y29UM20KYQ7kNvwHxZs1B&_nc_oc=Ado8VfXveOMOrb9te26IY40NQIPPAw2Bpx5qYrgs82v5MKLJvXsKLzfW8yvYP931VA4vqbYckfQ8bkGmIQ6-dozg&_nc_zt=23&_nc_ht=scontent.fykz1-2.fna&_nc_gid=ZQvyPObwo9fouro4X8QS0g&_nc_ss=7b2a8&oh=00_Af7orqS_pPIvdWt0jL0uJP-q7t31Y8DrP_72G6sVIFYC_Q&oe=69FD2E63";
 
 function formatDate(date) {
   if (!date) return '';
@@ -247,7 +247,7 @@ export default function HomePage({
               <Link href="/about" className="btn-outline" data-testid="learn-more-btn">Learn More</Link>
             </div>
             <div className="relative">
-              <img src="https://images.unsplash.com/photo-1753351056838-143bc3e4cf03?w=800&q=80" alt="Community"
+              <img src="https://scontent.fykz1-1.fna.fbcdn.net/v/t39.30808-6/484870814_2415773838797827_7153641233455206666_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=13d280&_nc_ohc=Bj_VHNe2gJAQ7kNvwFd7nlx&_nc_oc=AdoAjFX9SPEiglWw_ZZji1tXWgiUnOF23Drli-_b8mzES_DORA1JN6EQkw4PfVJypCJaKOwTUjGaW4ZHi-1TPPPJ&_nc_zt=23&_nc_ht=scontent.fykz1-1.fna&_nc_gid=k8V3Ym3fh3jx4eAX5I9k4w&_nc_ss=7b2a8&oh=00_Af5FrXVQ-qGCkeU91Eor0jk58yO1wF1CAcF2w3kSn44AZA&oe=69FD2061" alt="Community"
                 className="w-full aspect-[4/3] object-cover" />
               <div className="absolute -bottom-6 -left-6 p-6 bg-[#cdac69] text-black">
                 <p className="text-3xl font-bold">10+</p>
