@@ -21,8 +21,8 @@ class DatabaseSeeder extends Seeder
 
         // 2. Create Default Admin (as before)
         \App\Models\Admin::updateOrCreate(
-            ['email' => 'admin@gla.org'],
-            ['password' => \Illuminate\Support\Facades\Hash::make('password')]
+            ['email' => 'admin@glaabuja.org'],
+            ['password' => \Illuminate\Support\Facades\Hash::make('secret')]
         );
 
         // 3. Initialize Singletons

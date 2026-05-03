@@ -223,6 +223,12 @@ function Footer({ settings }) {
             <Link href="/admin/login" className="text-white/40 hover:text-[#cdac69] text-sm" data-testid="admin-login-link">
               Admin
             </Link>
+            <a href="https://lyrics.glaabuja.org" className="text-white/40 hover:text-[#cdac69] text-sm" data-testid="admin-login-link">
+              Lyrics Formatter
+            </a>
+            <a href="https://app.demtos.com/" className="text-white/40 hover:text-[#cdac69] text-sm" data-testid="admin-login-link">
+              GLA Portal
+            </a>
           </div>
         </div>
       </div>
