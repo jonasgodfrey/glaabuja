@@ -87,7 +87,7 @@ export default function HomePage({
       </section>
 
       {/* Next Service Section */}
-      <section className="py-16 bg-[#111111]" data-testid="service-section">
+      {/* <section className="py-16 bg-[#111111]" data-testid="service-section">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8 p-8 border border-[#cdac69]/20 bg-[#0a0a0a]">
             <div className="flex items-center gap-6">
@@ -113,7 +113,27 @@ export default function HomePage({
             <Link href="/contact" className="btn-primary whitespace-nowrap" data-testid="service-cta">Get Directions</Link>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      {/* Livestream Section */}
+      {livestream?.isActive && livestream?.youtubeUrl && (
+        <section className="py-24 md:py-32 bg-[#111111]" data-testid="livestream-section">
+          <div className="max-w-7xl mx-auto px-6 md:px-12">
+            <div className="text-center mb-12">
+              <span className="inline-flex items-center gap-2 text-red-500 text-sm uppercase tracking-widest mb-2">
+                <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
+                Live Now
+              </span>
+              <h2 className="text-4xl md:text-5xl font-semibold text-white">Watch Live</h2>
+            </div>
+            <div className="aspect-video bg-[#121212] overflow-hidden">
+              <iframe src={getYouTubeEmbedUrl(livestream.youtubeUrl)} title="Livestream"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen className="w-full h-full" data-testid="livestream-iframe" />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Latest Sermon Section */}
       {latestSermon && (
@@ -258,28 +278,10 @@ export default function HomePage({
         </div>
       </section>
 
-      {/* Livestream Section */}
-      {livestream?.isActive && livestream?.youtubeUrl && (
-        <section className="py-24 md:py-32" data-testid="livestream-section">
-          <div className="max-w-7xl mx-auto px-6 md:px-12">
-            <div className="text-center mb-12">
-              <span className="inline-flex items-center gap-2 text-red-500 text-sm uppercase tracking-widest mb-2">
-                <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
-                Live Now
-              </span>
-              <h2 className="text-4xl md:text-5xl font-semibold text-white">Watch Live</h2>
-            </div>
-            <div className="aspect-video bg-[#121212] overflow-hidden">
-              <iframe src={getYouTubeEmbedUrl(livestream.youtubeUrl)} title="Livestream"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen className="w-full h-full" data-testid="livestream-iframe" />
-            </div>
-          </div>
-        </section>
-      )}
+      
 
       {/* Prayer Request Section */}
-      <section className="py-24 md:py-32 bg-[#111111]" data-testid="prayer-section">
+      <section className="py-24 md:py-32" data-testid="prayer-section">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
