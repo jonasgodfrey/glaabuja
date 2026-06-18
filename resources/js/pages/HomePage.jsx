@@ -270,7 +270,7 @@ export default function HomePage({
               <img src="https://lyrics.glaabuja.org/backup/public/images/slider/papateach2.jpg" alt="Community"
                 className="w-full aspect-[4/3] object-cover" />
               <div className="absolute -bottom-6 -left-6 p-6 bg-[#cdac69] text-black">
-                <p className="text-3xl font-bold">10+</p>
+                <p className="text-3xl font-bold">25+</p>
                 <p className="text-sm font-medium uppercase tracking-wider">Years of Ministry</p>
               </div>
             </div>
