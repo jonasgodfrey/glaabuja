@@ -82,7 +82,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-white font-semibold mb-1">Service Times</h3>
                     <p className="text-white/60">{s.serviceDay || 'Sunday'} - {s.serviceTime || '9:00 AM'}</p>
-                    <p className="text-white/60">Wednesday Bible Study - 6:00 PM</p>
+                    <p className="text-white/60">Wednesday Bible Study - 5:30 PM</p>
                   </div>
                 </div>
               </div>
