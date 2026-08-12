@@ -187,7 +187,7 @@ function Footer({ settings }) {
               </div>
               <div className="p-4 bg-white/5 border border-white/5">
                 <p className="text-[#cdac69] font-semibold">Wednesday Bible Study</p>
-                <p className="text-white/60 text-sm">6:00 PM</p>
+                <p className="text-white/60 text-sm">5:30 PM</p>
               </div>
             </div>
           </div>
